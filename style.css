@@ -75,6 +75,7 @@ h3 { font-size: clamp(1.2rem, 2.5vw, 1.5rem); font-weight: 600; }
   align-items: center;
   justify-content: space-between;
   transition: var(--transition);
+  background: linear-gradient(180deg, rgba(11, 15, 20, 0.7) 0%, transparent 100%);
 }
 
 .navbar.scrolled {
@@ -109,7 +110,8 @@ h3 { font-size: clamp(1.2rem, 2.5vw, 1.5rem); font-weight: 600; }
 .nav-links a {
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--color-text-muted);
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   transition: var(--transition);
   position: relative;
 }
